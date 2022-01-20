@@ -1,4 +1,4 @@
-#include <string>
+ï»¿#include <string>
 #include <iostream>
 
 using namespace std;
@@ -8,7 +8,7 @@ unsigned short personHeight;
 unsigned short ReadPersonAge() 
 {
 	unsigned short personAge;
-	cout << "Ââåäèòå âîçðàñò: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð¾Ð·Ñ€Ð°ÑÑ‚: ";
 	cin >> personAge;
 	cout << endl;
 	return personAge;
@@ -17,7 +17,7 @@ unsigned short ReadPersonAge()
 string ReadPersonName()
 {
 	string personName;
-	cout << "Ââåäèòå èìÿ: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ: ";
 	cin >> personName;
 	cout << endl;
 	return personName;
@@ -25,7 +25,7 @@ string ReadPersonName()
 
 unsigned short ReadPersonHeight()
 {
-	cout << "Ââåäèòå ðîñò: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð¾ÑÑ‚: ";
 	cin >> personHeight;
 	cout << endl;
 	return personHeight;
@@ -34,7 +34,7 @@ unsigned short ReadPersonHeight()
 unsigned short ReadPersonWeight()
 {
 	unsigned short personWeight;
-	cout << "Ââåäèòå âåñ: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²ÐµÑ: ";
 	cin >> personWeight;
 	cout << endl;
 	return personWeight;
@@ -42,7 +42,7 @@ unsigned short ReadPersonWeight()
 
 void ReadPersonSalary(double *personSalary)
 {
-	cout << "Ââåäèòå çàðïëàòó: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð°Ñ€Ð¿Ð»Ð°Ñ‚Ñƒ: ";
 	cin >> *personSalary;
 	cout << endl;
 }
@@ -64,18 +64,18 @@ void ReadPersonData(string& personName, unsigned short& personAge, unsigned shor
 
 }
 
-void WritePersonData(unsigned short personAge, const string& personName = "", const string& personHeight = "", const string& personWeight = "", const string& personSalary = "")
+void WritePersonData(unsigned short personAge, const string& personName, const string& personHeight = "", const string& personWeight = "", const string& personSalary = "")
 {
-	cout << "Âîçðàñò:"<<personAge << endl;
-	cout << "Èìÿ:" << personName << endl;
-	cout << "Ðîñò:" << personHeight << endl;
-	cout << "Âåñ:" << personWeight << endl;
-	cout << "Çàðïëàòà:" << personSalary << "\n"<< endl;
+	cout << "Ð’Ð¾Ð·Ñ€Ð°ÑÑ‚:"<<personAge << endl;
+	cout << "Ð˜Ð¼Ñ:" << personName << endl;
+	cout << "Ð Ð¾ÑÑ‚:" << personHeight << endl;
+	cout << "Ð’ÐµÑ:" << personWeight << endl;
+	cout << "Ð—Ð°Ñ€Ð¿Ð»Ð°Ñ‚Ð°:" << personSalary <<"\n"<< endl;
 }
 
 int main()
 {
-	setlocale(LC_ALL, "russian");
+	setlocale(LC_ALL, "Russian");
 	string personName;
 	unsigned short personAge ;
 	unsigned short personHeight;
