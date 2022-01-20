@@ -86,7 +86,7 @@ int main()
 	WritePersonData(personAge, personName, "", "", to_string(personSalary));
 
 	ReadPersonData(personName, personAge, personHeight, personWeight);
-	WritePersonData(personAge, personName, to_string(personHeight), to_string(personWeight), "");
+	WritePersonData(personAge, personName, to_string(personHeight), to_string(personWeight));
 
 	return 0;
 }
