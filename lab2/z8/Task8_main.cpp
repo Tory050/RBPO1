@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Task8.h"
 using namespace std;
 

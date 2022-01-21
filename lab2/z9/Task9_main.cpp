@@ -2,6 +2,7 @@
 #include "Task9.h"
 
 using namespace std;
+using namespace Nemanova;
 
 void main()
 {

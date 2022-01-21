@@ -1,7 +1,9 @@
 #include <iostream>
-#include "Task7.h"
 
 using namespace std;
+
+extern double x;
+extern double result;
 
 void f();
 
