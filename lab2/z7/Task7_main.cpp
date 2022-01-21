@@ -1,5 +1,5 @@
-/*#include <iostream>
-#include "func.h"
+#include <iostream>
+#include "Task7.h"
 
 using namespace std;
 
@@ -18,4 +18,4 @@ void main()
 	cin >> x;
 	f();
 	cout << "Значение функции при введённом x: f = " << result << "; " << endl;
-}*/
+}

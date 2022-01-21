@@ -1,4 +1,4 @@
-#include "func1.h"
+#include "Task9.h"
 
 double x = 15;
 double result;

@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 #include <math.h>
 
 using namespace std;
@@ -19,4 +19,4 @@ void main()
 	cout << "Введите х:";
 	cin >> x;
 	cout << "Значение функции при введённом x: f = " << f(x) << "; " << endl;
-}*/
+}
